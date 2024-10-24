@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-@onready var slam_timer: Timer = $Slam_Timer
-#@onready var dash_node = preload()
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+
+const DEFAULT_LOCATION := Vector2(-43, 12)
 
 const Character = preload("res://scripts/character_class_script.gd")
 var Player = Character.new()

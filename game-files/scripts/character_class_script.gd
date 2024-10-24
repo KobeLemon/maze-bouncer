@@ -5,8 +5,8 @@ extends CharacterBody2D
 
 # Movement
 var speed = 150.0
-var jump_velocity = -300.0
-var dash_speed = speed * 10
+var jump_velocity = -250.0
+var dash_speed = speed * 10.0
 var dash_length = 0.5
 
 # Health
