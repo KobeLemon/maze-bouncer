@@ -136,7 +136,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"bounce",
-"speed": 7.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -169,7 +169,6 @@ script = ExtResource("1_p38iv")
 position = Vector2(0, -11)
 sprite_frames = SubResource("SpriteFrames_3xaqp")
 animation = &"idle"
-autoplay = "idle"
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
