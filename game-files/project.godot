@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="maze-bouncer"
+config/name="Maze Bouncer"
 run/main_scene="res://scenes/game_scene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
@@ -52,6 +52,15 @@ dash={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Environment"
+2d_physics/layer_2="Player"
+2d_physics/layer_3="Enemies"
+2d_physics/layer_4="Collectibles"
+2d_physics/layer_5="Platforms"
+2d_physics/layer_6="Traps"
+
 [physics]
 
 2d/default_gravity=700.0
@@ -59,3 +68,4 @@ dash={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+textures/vram_compression/import_etc2_astc=true
