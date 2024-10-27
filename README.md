@@ -4,7 +4,9 @@ This is **Maze Bouncer**! This is a game made in the Godot Game Engine with its 
 
 I am developing this game because it is something that sounded really fun to me and I wanted to make it a reality. I just started game development and I want to make something that people of any skill level can play and enjoy!
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=e8NlV5m0eiw)
+
+[Click here](https://kobelemon.github.io/maze-bouncer-web/) to play the demo in your browser!
 
 ## Development Environment
 
@@ -20,8 +22,7 @@ I am developing this game because it is something that sounded really fun to me 
 
 ## Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- I need to add more levels to the game.
+- I need to lower the overall volume of the game.
+- I need to add UI to the game, such as a pause menu, player health/score, settings, & more.
+- I need to add animations/sound effects for when the player is hurt & dies.
